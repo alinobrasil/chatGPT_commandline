@@ -1,4 +1,11 @@
+## private info
 config.py
+
+## python generated
 __pycache__/
 venv/
 
+## pyinstaller related
+build/
+dist/
+chat.spec

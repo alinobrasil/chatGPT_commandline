@@ -32,7 +32,7 @@ while prompt != "quit()":
             generated_text = completions.choices[0].text
             print(generated_text)
     except openai.error.AuthenticationError:
-        print("api error")
-        mykey = input("\n\n****enter your API key: ")
+        print("\n****Api error")
+        mykey = input("Enter your API key again: ")
         openai.api_key = mykey
     # endif

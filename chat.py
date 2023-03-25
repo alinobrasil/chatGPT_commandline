@@ -5,7 +5,8 @@ import config
 openai.api_key = config.openai_key
 
 # set the model to use (e.g. "text-davinci-002")
-model = "text-davinci-003"
+model = "gpt-4"
+# "text-davinci-003"
 
 prompt = ""
 
@@ -22,7 +23,7 @@ while prompt != "quit()":
         max_tokens=1024,
         n=1,
         stop=None,
-        temperature=0.5,
+        temperature=1,
     )
 
     # print the generated text

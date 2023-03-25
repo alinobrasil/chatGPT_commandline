@@ -1,13 +1,13 @@
-To run this, you need python installed. Just go with the latest version.
+Run your own personal gpt3.5 assistant in Telegram
 
-first, run this in your terminal:
-```pip install openai```
-or
-```pip3 install openai```
+1. install dependencies
+```pip install -r requirements.txt```
 
-Get your API key from openai.com
-put it into config.py
-(Rename config_example.py to config.py)
+2. set up config (fill in api key) in config.py
 
-then just run this:
-```python3 chat.py```
+3. run the bot
+```python telegrambot.py```
+
+
+Note:
+chat.py is outdated. ignore it for now.

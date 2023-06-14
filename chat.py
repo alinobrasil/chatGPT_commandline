@@ -5,21 +5,15 @@ import config
 openai.api_key = config.openai_key
 
 # set the model to use (e.g. "text-davinci-002")
-model = "gpt-4"
-# "text-davinci-003"
+model = "gpt-3.5-turbo"
 
-prompt = ""
-
-while prompt != "quit()":
-        
-
-    # set the prompt
-    prompt = input("\nAsk me anything. Type quit() to terminate: ")
+def ask_chatGPT(prompt):
+    message = {"role": "user", "content": prompt}
 
     # generate text
-    completions = openai.Completion.create(
-        engine=model,
-        prompt=prompt,
+    completions = openai.ChatCompletion.create(
+        model=model,
+        messages=[message],
         max_tokens=1024,
         n=1,
         stop=None,
@@ -27,5 +21,17 @@ while prompt != "quit()":
     )
 
     # print the generated text
-    generated_text = completions.choices[0].text
-    print(generated_text)
+    return completions.choices[0]["message"]["content"]
+   
+   
+   
+if __name__ == "__main__":
+        
+    prompt = ""
+    while prompt != "quit()":
+
+        # set the prompt
+        prompt = input("\nAsk me anything. Type quit() to terminate: ")
+        
+        print(ask_chatGPT(prompt))
+        

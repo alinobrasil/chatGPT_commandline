@@ -48,7 +48,7 @@ def respond(update, context):
     
     print("\nResponse---------------------")
     print(generated_text)
-    context.bot.send_message(chat_id=update.effective_chat.id, text=generated_text)
+    context.bot.send_message(chat_id=update.effective_chat.id, text=generated_text, parse_mode="Markdown")
     
     ##add response to messages log
     add_to_chatlog(username, {"role": "assistant", "content": generated_text})
@@ -72,6 +72,7 @@ def main():
     dispatcher.add_handler(start_handler)
     respond_handler = MessageHandler(Filters.text, respond)
     dispatcher.add_handler(respond_handler)
+    
     updater.start_polling()
     updater.idle()
 

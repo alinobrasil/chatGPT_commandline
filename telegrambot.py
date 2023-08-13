@@ -13,7 +13,7 @@ users={}
 def start(update, context):
     context.bot.send_message(
         chat_id=update.effective_chat.id, 
-        text="Hi! I'm your GPT3 bot. Ask me anything!")
+        text="Hi! I'm your AI assistant. Ask me anything and I'll respond within a few seconds!")
 
 def respond(update, context):
     message = update.message.text
@@ -34,24 +34,36 @@ def respond(update, context):
     ## add newest message to messages log. length capped at 10
     add_to_chatlog(username, new_message)
     
+    max_tokens=1024
+    
     ##get reseponse from openAI
     completions = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=messages,
-        max_tokens=1024,
+        max_tokens=max_tokens,
         n=1,
         stop=None,
         temperature=0.7,
     )
     
-    generated_text = completions.choices[0]["message"]["content"]
     
-    print("\nResponse---------------------")
-    print(generated_text)
-    context.bot.send_message(chat_id=update.effective_chat.id, text=generated_text, parse_mode="Markdown")
+    total_tokens_used = completions['usage']['total_tokens']
     
-    ##add response to messages log
-    add_to_chatlog(username, {"role": "assistant", "content": generated_text})
+    if total_tokens_used <= max_tokens:
+        generated_text = completions.choices[0]["message"]["content"]
+        print("\nResponse---------------------")
+        print(generated_text)
+        context.bot.send_message(chat_id=update.effective_chat.id, text=generated_text, parse_mode="Markdown")
+        
+        ##add response to messages log
+        add_to_chatlog(username, {"role": "assistant", "content": generated_text})
+    else:
+        max_tokens_msg = "Max tokens exceeded. Try again with a shorter prompt."
+        print(max_tokens_msg)
+        context.bot.send_message(chat_id=update.effective_chat.id, text=max_tokens_msg)
+        
+        ## clear chatlog for user, otherwise full chatlog will be sent to openAI, using up max tokens
+        users[username] = []
     
     print("users: ", users)
 

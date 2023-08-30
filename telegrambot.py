@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger('my_logger')
 handler = TimedRotatingFileHandler(filename='logs/log_telegram.log', 
                                    when='midnight', interval=1, backupCount=0)
-handler.suffix = '%Y-%m-%d.log'
+handler.suffix = '_%Y-%m-%d.log'
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
@@ -73,18 +73,32 @@ def respond(update, context):
             )
         except Exception as e:
             print("Exception: ", e)
-            context.bot.send_message(chat_id=update.effective_chat.id, text="Oops, I'm having trouble responding. Can you try again?")
-            logger.warning("Error generating response from OpenAI: ", e)
+            context.bot.send_message(chat_id=update.effective_chat.id, text="Sorry, I'm having trouble responding. Can you try again?")
+            try:
+                logger.warning("Error generating response from OpenAI: ", e)
+            except Exception as e:
+                prin("Error logging warning")
+                print(e)
+
             return
         
         total_tokens_used = completions['usage']['total_tokens']
         print("\ntotal_tokens_used: ", total_tokens_used)
-        logger.info(f"tokens_used by {username}: {total_tokens_used}")
-        
+        try:
+            logger.info(f"tokens_used by {username}: {total_tokens_used}")
+        except Exception as e:
+            print("error logging tokens_used")
+            print(e)
+
+
         # if total_tokens_used <= max_tokens:
-        generated_text = completions.choices[0]["message"]["content"]
-        generated_text_oneline = generated_text.replace("\n", " ")
-        logger.info(f"Generated Response: \"{generated_text_oneline[:100]}\" ")
+        try:
+            generated_text = completions.choices[0]["message"]["content"]
+            generated_text_oneline = generated_text.replace("\n", " ")
+            logger.info(f"Generated Response: \"{generated_text_oneline[:100]}\" ")
+        except Exception as e:
+            print("Error logging response")
+            print(e)
         
         print("\nResponse---------------------")
         print(generated_text)
@@ -93,8 +107,12 @@ def respond(update, context):
             logger.info(f"Sent response to {username}")
         except Exception as e:
             print("Exception: ", e)
-            logger.warning("Error sending response to Telegram: ", e)
-            context.bot.send_message(chat_id=update.effective_chat.id, text="Sorry, something weird happened. Can you try again?", parse_mode="Markdown")
+            try:
+                logger.warning("Error sending response to Telegram: ", e)
+                context.bot.send_message(chat_id=update.effective_chat.id, text="Sorry, something weird happened. Can you try again?", parse_mode="Markdown")
+            except Exception as e:
+                print("Error logging warning")
+                print(e)
             return
         
         

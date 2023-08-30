@@ -1,9 +1,26 @@
 
 import os
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-
 import openai
 import config
+import logging
+from logging.handlers import TimedRotatingFileHandler
+
+
+# logging.basicConfig(filename='log_telegram.log', 
+#                     level=logging.INFO, 
+#                     format='%(asctime)s - %(levelname)s - %(message)s')
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger('my_logger')
+handler = TimedRotatingFileHandler(filename='logs/log_telegram.log', 
+                                   when='midnight', interval=1, backupCount=0)
+handler.suffix = '%Y-%m-%d.log'
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+    
+
 
 openai.api_key = config.openai_key
 # openai_api_key = config.openai_key
@@ -15,10 +32,14 @@ def start(update, context):
     context.bot.send_message(
         chat_id=update.effective_chat.id, 
         text="Hi! I'm your AI assistant. Ask me anything and I'll respond within a few seconds!")
+    logger.info(f'User {update.message.from_user.username} started the bot')
 
 def respond(update, context):
     message = update.message.text
     name = update.message.from_user    
+    
+    last_name = name.last_name if name.last_name else ""
+    logger.info(f"User {name.username} ({name.first_name} {last_name}, {name.id}), Message: \"{message}\" ")
     
     if get_word_count(message) < max_tokens/2:
         ## if message is short enough, send to openAI
@@ -53,17 +74,28 @@ def respond(update, context):
         except Exception as e:
             print("Exception: ", e)
             context.bot.send_message(chat_id=update.effective_chat.id, text="Oops, I'm having trouble responding. Can you try again?")
+            logger.warning("Error generating response from OpenAI: ", e)
             return
         
         total_tokens_used = completions['usage']['total_tokens']
         print("\ntotal_tokens_used: ", total_tokens_used)
+        logger.info(f"tokens_used by {username}: {total_tokens_used}")
         
         # if total_tokens_used <= max_tokens:
         generated_text = completions.choices[0]["message"]["content"]
+        generated_text_oneline = generated_text.replace("\n", " ")
+        logger.info(f"Generated Response: \"{generated_text_oneline[:100]}\" ")
         
         print("\nResponse---------------------")
         print(generated_text)
-        context.bot.send_message(chat_id=update.effective_chat.id, text=generated_text, parse_mode="Markdown")
+        try:
+            context.bot.send_message(chat_id=update.effective_chat.id, text=generated_text, parse_mode="Markdown")
+            logger.info(f"Sent response to {username}")
+        except Exception as e:
+            print("Exception: ", e)
+            logger.warning("Error sending response to Telegram: ", e)
+            context.bot.send_message(chat_id=update.effective_chat.id, text="Sorry, something weird happened. Can you try again?", parse_mode="Markdown")
+            return
         
         
         add_to_chatlog(username, {"role": "assistant", "content": generated_text})
@@ -84,6 +116,7 @@ def add_to_chatlog(username, message):
     
     ## delete the first 2 messages if there are more than 10
     if len(user_messages) >10:
+        logger.info(f"Removing older message from chat log for {username}")
         print("\nRemoving older message from chat log...")
         user_messages = user_messages[1:]
 
@@ -98,6 +131,7 @@ def add_to_chatlog(username, message):
         print("\nword_count: ", word_count)
     
     users[username] = user_messages
+    logger.info(f"Chat log for {username} now has {len(user_messages)} messages")
 
 def count_words_in_array(messages):
     word_count = 0
@@ -123,4 +157,8 @@ def main():
     updater.idle()
 
 if __name__ == '__main__':
+
+    
+    logger.info(f'Started app')
+
     main()

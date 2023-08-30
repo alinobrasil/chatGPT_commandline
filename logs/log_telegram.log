@@ -1,0 +1,87 @@
+2023-08-30 10:00:47,251 - INFO - User bonjour17 (Ali K , 466910209), Message: "What's the capital of Argentina" 
+2023-08-30 10:00:47,255 - INFO - Chat log for bonjour17 now has 7 messages
+2023-08-30 10:02:06,650 - INFO - User bonjour17 (Ali K , 466910209), Message: "whats the capital of zambia" 
+2023-08-30 10:02:06,653 - INFO - Chat log for bonjour17 now has 8 messages
+2023-08-30 10:02:07,777 - INFO - tokens_used by bonjour17: 1585
+2023-08-30 10:02:07,777 - INFO - Generated Response: "The capital of Zambia is Lusaka." 
+2023-08-30 10:02:08,058 - INFO - Sent response to bonjour17
+2023-08-30 10:02:08,058 - INFO - Chat log for bonjour17 now has 9 messages
+2023-08-30 10:02:14,951 - INFO - User bonjour17 (Ali K , 466910209), Message: "what's the capital of argentina" 
+2023-08-30 10:02:14,954 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:02:15,921 - INFO - tokens_used by bonjour17: 1608
+2023-08-30 10:02:15,921 - INFO - Generated Response: "The capital of Argentina is Buenos Aires." 
+2023-08-30 10:02:16,188 - INFO - Sent response to bonjour17
+2023-08-30 10:02:16,188 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:02:16,190 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:03:15,878 - INFO - User bonjour17 (Ali K , 466910209), Message: "what's the capital of usa" 
+2023-08-30 10:03:15,880 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:03:15,880 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:03:16,792 - INFO - tokens_used by bonjour17: 1608
+2023-08-30 10:03:16,792 - INFO - Generated Response: "The capital of the United States of America is Washington, D.C." 
+2023-08-30 10:03:17,054 - INFO - Sent response to bonjour17
+2023-08-30 10:03:17,055 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:03:17,056 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:03:24,510 - INFO - User bonjour17 (Ali K , 466910209), Message: "what's the capital of canadsa" 
+2023-08-30 10:03:24,512 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:03:24,512 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:03:25,182 - INFO - tokens_used by bonjour17: 1150
+2023-08-30 10:03:25,183 - INFO - Generated Response: "The capital of Canada is Ottawa." 
+2023-08-30 10:03:25,439 - INFO - Sent response to bonjour17
+2023-08-30 10:03:25,439 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:03:25,440 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:03:36,365 - INFO - User bonjour17 (Ali K , 466910209), Message: "what's the capital of mexico" 
+2023-08-30 10:03:36,366 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:03:36,367 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:03:37,277 - INFO - tokens_used by bonjour17: 598
+2023-08-30 10:03:37,277 - INFO - Generated Response: "The capital of Mexico is Mexico City." 
+2023-08-30 10:03:37,553 - INFO - Sent response to bonjour17
+2023-08-30 10:03:37,554 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:03:37,555 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:03:48,871 - INFO - User bonjour17 (Ali K , 466910209), Message: "what's the capital of dominican republic" 
+2023-08-30 10:03:48,873 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:03:48,874 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:03:49,826 - INFO - tokens_used by bonjour17: 146
+2023-08-30 10:03:49,826 - INFO - Generated Response: "The capital of the Dominican Republic is Santo Domingo." 
+2023-08-30 10:03:50,086 - INFO - Sent response to bonjour17
+2023-08-30 10:03:50,086 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:03:50,087 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:03:51,123 - INFO - User bonjour17 (Ali K , 466910209), Message: "what's the capital of cuba" 
+2023-08-30 10:03:51,125 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:03:51,126 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:03:52,123 - INFO - tokens_used by bonjour17: 144
+2023-08-30 10:03:52,124 - INFO - Generated Response: "The capital of Cuba is Havana." 
+2023-08-30 10:03:52,378 - INFO - Sent response to bonjour17
+2023-08-30 10:03:52,378 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:03:52,379 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:03:57,064 - INFO - User bonjour17 (Ali K , 466910209), Message: "what's the capital of costa rica" 
+2023-08-30 10:03:57,067 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:03:57,068 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:03:58,854 - INFO - tokens_used by bonjour17: 146
+2023-08-30 10:03:58,854 - INFO - Generated Response: "The capital of Costa Rica is San José." 
+2023-08-30 10:03:59,113 - INFO - Sent response to bonjour17
+2023-08-30 10:03:59,113 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:03:59,114 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:04:07,670 - INFO - User bonjour17 (Ali K , 466910209), Message: "what's the capital of jamaica" 
+2023-08-30 10:04:07,671 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:04:07,672 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:04:08,134 - INFO - tokens_used by bonjour17: 141
+2023-08-30 10:04:08,135 - INFO - Generated Response: "The capital of Jamaica is Kingston." 
+2023-08-30 10:04:08,391 - INFO - Sent response to bonjour17
+2023-08-30 10:04:08,391 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:04:08,392 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:04:11,244 - INFO - User bonjour17 (Ali K , 466910209), Message: "what's the capital of bahamas" 
+2023-08-30 10:04:11,246 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:04:11,247 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:04:13,206 - INFO - tokens_used by bonjour17: 142
+2023-08-30 10:04:13,206 - INFO - Generated Response: "The capital of the Bahamas is Nassau." 
+2023-08-30 10:04:13,467 - INFO - Sent response to bonjour17
+2023-08-30 10:04:13,468 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:04:13,468 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:12:14,892 - INFO - User bonjour17 (Ali K , 466910209), Message: "Does Uber charge extra for a set pickup time?" 
+2023-08-30 10:12:14,894 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:12:14,895 - INFO - Chat log for bonjour17 now has 10 messages
+2023-08-30 10:12:17,466 - INFO - tokens_used by bonjour17: 196
+2023-08-30 10:12:17,467 - INFO - Generated Response: "Uber does not typically charge extra for scheduling a pickup in advance. However, it is important to" 
+2023-08-30 10:12:17,731 - INFO - Sent response to bonjour17
+2023-08-30 10:12:17,731 - INFO - Removing older message from chat log for bonjour17
+2023-08-30 10:12:17,732 - INFO - Chat log for bonjour17 now has 10 messages

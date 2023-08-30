@@ -1,0 +1,33 @@
+2023-08-29 23:24:28,456 - INFO - Started app
+2023-08-29 23:25:13,331 - INFO - Started app
+2023-08-29 23:25:21,109 - INFO - User bonjour17 (Ali K , 466910209), Message: "what's the capital of ukraine" 
+2023-08-29 23:25:21,111 - INFO - Chat log for bonjour17 now has 1 messages
+2023-08-29 23:25:21,962 - INFO - tokens_used by bonjour17: 22
+2023-08-29 23:25:21,963 - INFO - Generated Response: "The capital of Ukraine is Kyiv." 
+2023-08-29 23:25:22,467 - INFO - Sent response to bonjour17
+2023-08-29 23:25:22,468 - INFO - Chat log for bonjour17 now has 2 messages
+2023-08-29 23:27:49,720 - INFO - User bonjour17 (Ali K , 466910209), Message: "is there an easy way to take python logging logs and put them into mongodb for easy access to analyze logs?" 
+2023-08-29 23:27:49,722 - INFO - Chat log for bonjour17 now has 3 messages
+2023-08-29 23:27:59,329 - INFO - tokens_used by bonjour17: 398
+2023-08-29 23:27:59,329 - INFO - Generated Response: "Yes, there are several ways to take Python logging logs and store them in MongoDB for easy access an" 
+2023-08-29 23:27:59,631 - INFO - Sent response to bonjour17
+2023-08-29 23:27:59,633 - INFO - Chat log for bonjour17 now has 4 messages
+2023-08-29 23:28:56,108 - INFO - User bonjour17 (Ali K , 466910209), Message: "i'd like to schedule an independent python script, to read log files and parse them, and store their info in mongodb" 
+2023-08-29 23:28:56,110 - INFO - Chat log for bonjour17 now has 5 messages
+2023-08-29 23:29:07,659 - INFO - tokens_used by bonjour17: 888
+2023-08-29 23:29:07,659 - INFO - Generated Response: "To schedule an independent Python script that reads log files, parses them, and stores their informa" 
+2023-08-29 23:29:08,088 - INFO - Sent response to bonjour17
+2023-08-29 23:29:08,089 - INFO - Chat log for bonjour17 now has 6 messages
+2023-08-29 23:31:01,554 - INFO - User bonjour17 (Ali K , 466910209), Message: "how do i make sure log info does not get written twice into mongodb?" 
+2023-08-29 23:31:01,555 - INFO - Chat log for bonjour17 now has 7 messages
+2023-08-29 23:31:15,178 - INFO - tokens_used by bonjour17: 1451
+2023-08-29 23:31:15,178 - INFO - Generated Response: "To ensure that log information does not get written twice into MongoDB, you can implement a mechanis" 
+2023-08-29 23:31:15,443 - INFO - Sent response to bonjour17
+2023-08-29 23:31:15,444 - INFO - Chat log for bonjour17 now has 8 messages
+2023-08-29 23:32:30,669 - INFO - User bonjour17 (Ali K , 466910209), Message: "my logs have timestamps. how about letting this scheduler only retrieve entries after a specified time?
+eg. logs from 5 minutes ago" 
+2023-08-29 23:32:30,672 - INFO - Chat log for bonjour17 now has 9 messages
+2023-08-29 23:32:42,544 - INFO - tokens_used by bonjour17: 1950
+2023-08-29 23:32:42,544 - INFO - Generated Response: "To retrieve log entries from a specified time (e.g., logs from 5 minutes ago) using the scheduler, y" 
+2023-08-29 23:32:42,817 - INFO - Sent response to bonjour17
+2023-08-29 23:32:42,821 - INFO - Chat log for bonjour17 now has 6 messages

@@ -5,7 +5,7 @@ import openai
 import config
 import logging
 from logging.handlers import TimedRotatingFileHandler
-
+import re
 
 # logging.basicConfig(filename='log_telegram.log', 
 #                     level=logging.INFO, 
@@ -77,7 +77,7 @@ def respond(update, context):
             try:
                 logger.warning("Error generating response from OpenAI: ", e)
             except Exception as e:
-                prin("Error logging warning")
+                print("Error logging warning")
                 print(e)
 
             return
@@ -102,8 +102,9 @@ def respond(update, context):
         
         print("\nResponse---------------------")
         print(generated_text)
+        
         try:
-            context.bot.send_message(chat_id=update.effective_chat.id, text=generated_text, parse_mode="Markdown")
+            context.bot.send_message(chat_id=update.effective_chat.id, text=cleanup_text(generated_text), parse_mode="Markdown")
             logger.info(f"Sent response to {username}")
         except Exception as e:
             print("Exception: ", e)
@@ -127,6 +128,19 @@ def respond(update, context):
                                  text=alert_text, 
                                  parse_mode="Markdown")
 
+
+
+def cleanup_text(text):
+    paragraphs = text.split("\n\n")
+
+    for p in paragraphs:
+        if p.startswith(" ") or p.startswith("\t"): 
+            # indent indicates a code block
+            p = "```\n" + p + "\n```"
+
+    updated_text = "\n\n".join(paragraphs)
+    
+    return updated_text
 
 def add_to_chatlog(username, message):
     user_messages = users[username]

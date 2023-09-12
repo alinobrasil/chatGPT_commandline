@@ -1,15 +1,17 @@
 
 import os
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from telegram import Update
+from telegram.utils.helpers import escape_markdown
+
 import openai
 import config
 import logging
 from logging.handlers import TimedRotatingFileHandler
 import re
+import stripe
 
-# logging.basicConfig(filename='log_telegram.log', 
-#                     level=logging.INFO, 
-#                     format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger('my_logger')

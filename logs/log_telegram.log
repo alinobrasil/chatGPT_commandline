@@ -1,105 +1,164 @@
-2023-09-11 11:12:44,962 - INFO - User bonjour17 (Ali K , 466910209), Message: "In 2015, I left a promising career as a BI developer to see how data *really* drove business decisions. I joined a Chinese-American ecommerce agency serving well known brands from all over the world.
+2023-09-12 02:31:21,142 - INFO - User geisyannesoares (Geisy Soares, 539868480), Message: "correct this text: I am in my second undergraduate course. I graduated in Nutrition in 2016, but later I felt I wanted a changing in career. I started studying programming by myself las year and realized I would like to work with it. Niagara College sounded like a good choice to learn and develop good skills to be used in the workforce. Learning Communication foundations is important because I believe it is the base for any professional and leads to a good work relationship as well as delivering of a good quality work. As a programmer I will need good communication skills in my daily life. It will be useful to communicate with both, clients and colleagues. Another important factor is it will help me to make my work as a developer easier to be understand by users and other programmers. If I build an interface, for example, it is essential to understand what I need to communicate to users and what is the best way to do so. I look forward to learning how to send clear messages easy to be understand. I am most worried about academic articles rules because I feel it is a bit boring, but I know it is necessary." 
+2023-09-12 02:31:21,145 - INFO - Chat log for geisyannesoares now has 1 messages
+2023-09-12 02:31:31,304 - INFO - tokens_used by geisyannesoares: 470
+2023-09-12 02:31:31,305 - INFO - Generated Response: "I am currently enrolled in my second undergraduate course. I graduated in Nutrition in 2016, but lat" 
+2023-09-12 02:31:31,809 - INFO - Sent response to geisyannesoares
+2023-09-12 02:31:31,810 - INFO - Chat log for geisyannesoares now has 2 messages
+2023-09-12 02:37:46,501 - INFO - User geisyannesoares (Geisy Soares, 539868480), Message: "similar to fosters" 
+2023-09-12 02:37:46,503 - INFO - Chat log for geisyannesoares now has 3 messages
+2023-09-12 02:37:47,364 - INFO - tokens_used by geisyannesoares: 484
+2023-09-12 02:37:47,364 - INFO - Generated Response: "promotes" 
+2023-09-12 02:37:47,617 - INFO - Sent response to geisyannesoares
+2023-09-12 02:37:47,618 - INFO - Chat log for geisyannesoares now has 4 messages
+2023-09-12 06:13:09,473 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "Traduza esse texto...Also yesterday was Ian's birthday so his family brought cake and little goodie bags for all his friends. We will be having that for snack today" 
+2023-09-12 06:13:09,475 - INFO - Removing older message from chat log for None
+2023-09-12 06:13:09,476 - INFO - Chat log for None now has 10 messages
+2023-09-12 06:13:12,269 - INFO - tokens_used by None: 826
+2023-09-12 06:13:12,270 - INFO - Generated Response: "Também ontem foi o aniversário do Ian, então a família dele trouxe bolo e pequenas lembrancinhas par" 
+2023-09-12 06:13:12,752 - INFO - Sent response to None
+2023-09-12 06:13:12,753 - INFO - Removing older message from chat log for None
+2023-09-12 06:13:12,754 - INFO - Chat log for None now has 10 messages
+2023-09-12 11:53:49,594 - INFO - User bonjour17 (Ali K , 466910209), Message: "what are correlation swaps on crypto?" 
+2023-09-12 11:53:49,596 - INFO - Chat log for bonjour17 now has 7 messages
+2023-09-12 11:54:06,064 - INFO - tokens_used by bonjour17: 1549
+2023-09-12 11:54:06,064 - INFO - Generated Response: "A correlation swap is a financial derivative instrument that allows traders and investors to specula" 
+2023-09-12 11:54:06,572 - INFO - Sent response to bonjour17
+2023-09-12 11:54:06,574 - INFO - Chat log for bonjour17 now has 6 messages
+2023-09-12 12:19:17,320 - INFO - User bonjour17 (Ali K , 466910209), Message: "Summarize this: My passion for Web3 led me to participate in major Ethereum hackathons and win several awards. One notable contribution was implementing social recovery using Metamask snaps. After the hackathon, I tried to build one for verifying contract owners before executing transactions, but the current version doesn't allow for customizations specifically for ERC20 approvals. I was disappointed because I just wanted something a little better to help users understand what contract they're dealing with. That led me to discover Fire and it's a crucial tool for my everyday crypto use. I think its upcoming wallet could prove to be way safer especially for the next few million coming into the space." 
+2023-09-12 12:19:17,324 - INFO - Chat log for bonjour17 now has 5 messages
+2023-09-12 12:19:22,064 - INFO - tokens_used by bonjour17: 1482
+2023-09-12 12:19:22,064 - INFO - Generated Response: "The person is passionate about Web3 technology and has participated in Ethereum hackathons, winning " 
+2023-09-12 12:19:22,556 - INFO - Sent response to bonjour17
+2023-09-12 12:19:22,556 - INFO - Chat log for bonjour17 now has 6 messages
+2023-09-12 12:19:31,179 - INFO - User bonjour17 (Ali K , 466910209), Message: "Make this more concise: My passion for Web3 led me to participate in major Ethereum hackathons and win several awards. One notable contribution was implementing social recovery using Metamask snaps. After the hackathon, I tried to build one for verifying contract owners before executing transactions, but the current version doesn't allow for customizations specifically for ERC20 approvals. I was disappointed because I just wanted something a little better to help users understand what contract they're dealing with. That led me to discover Fire and it's a crucial tool for my everyday crypto use. I think its upcoming wallet could prove to be way safer especially for the next few million coming into the space." 
+2023-09-12 12:19:31,182 - INFO - Chat log for bonjour17 now has 7 messages
+2023-09-12 12:19:33,607 - INFO - tokens_used by bonjour17: 1309
+2023-09-12 12:19:33,607 - INFO - Generated Response: "Passionate about Web3, I won awards at major Ethereum hackathons. Implemented social recovery using " 
+2023-09-12 12:19:33,866 - INFO - Sent response to bonjour17
+2023-09-12 12:19:33,867 - INFO - Chat log for bonjour17 now has 8 messages
+2023-09-12 12:19:50,769 - INFO - User bonjour17 (Ali K , 466910209), Message: "Make it appropriate for a cover letter. Be concise but use full sentences" 
+2023-09-12 12:19:50,773 - INFO - Chat log for bonjour17 now has 7 messages
+2023-09-12 12:19:57,319 - INFO - tokens_used by bonjour17: 1504
+2023-09-12 12:19:57,321 - INFO - Generated Response: "My passion for Web3 technology has driven me to actively participate in major Ethereum hackathons, w" 
+2023-09-12 12:19:57,608 - INFO - Sent response to bonjour17
+2023-09-12 12:19:57,609 - INFO - Chat log for bonjour17 now has 8 messages
+2023-09-12 12:20:07,383 - INFO - User bonjour17 (Ali K , 466910209), Message: "Please make it more concise" 
+2023-09-12 12:20:07,385 - INFO - Chat log for bonjour17 now has 9 messages
+2023-09-12 12:20:10,631 - INFO - tokens_used by bonjour17: 1200
+2023-09-12 12:20:10,631 - INFO - Generated Response: "Passionate about Web3, I won awards at Ethereum hackathons for implementing social recovery using Me" 
+2023-09-12 12:20:10,921 - INFO - Sent response to bonjour17
+2023-09-12 12:20:10,922 - INFO - Chat log for bonjour17 now has 10 messages
+2023-09-12 13:24:09,251 - INFO - User bonjour17 (Ali K , 466910209), Message: "How can I mark where I parked on Google maps" 
+2023-09-12 13:24:09,254 - INFO - Removing older message from chat log for bonjour17
+2023-09-12 13:24:09,255 - INFO - Chat log for bonjour17 now has 10 messages
+2023-09-12 13:24:16,390 - INFO - tokens_used by bonjour17: 1427
+2023-09-12 13:24:16,390 - INFO - Generated Response: "To mark where you parked on Google Maps, follow these steps:  1. Ensure that you have the latest ver" 
+2023-09-12 13:24:16,915 - INFO - Sent response to bonjour17
+2023-09-12 13:24:16,915 - INFO - Removing older message from chat log for bonjour17
+2023-09-12 13:24:16,917 - INFO - Chat log for bonjour17 now has 10 messages
+2023-09-12 14:14:51,606 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "Por favor traduza esse texto....After breakfast every morning the children sit in the hallway with a book from the basket and I quickly sweep and wipe down. Yesterday was alot of crying and kinda of like herding cats hahahah but look at everyone today!!!! I was so shocked and proud! It was a much calmer day for sure!" 
+2023-09-12 14:14:51,609 - INFO - Removing older message from chat log for None
+2023-09-12 14:14:51,609 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:14:56,079 - INFO - tokens_used by None: 912
+2023-09-12 14:14:56,079 - INFO - Generated Response: "Depois do café da manhã todos os dias, as crianças se sentam no corredor com um livro da cesta, enqu" 
+2023-09-12 14:14:56,627 - INFO - Sent response to None
+2023-09-12 14:14:56,627 - INFO - Removing older message from chat log for None
+2023-09-12 14:14:56,628 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:15:49,910 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "I also had to snap a photo of Ian today. Whenever we talk in a group I try to get the children to look at me so everyone is clear on what we are going to do next then when I'm done I will say okay? And put my thumbs up. It's a great way to know they are listening and encourage strengthening fingers. Nico so far is the only one who could do it being a bit older. But today Ian got it!!!!" 
+2023-09-12 14:15:49,913 - INFO - Removing older message from chat log for None
+2023-09-12 14:15:49,914 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:15:55,588 - INFO - tokens_used by None: 1111
+2023-09-12 14:15:55,588 - INFO - Generated Response: "Também tive que tirar uma foto do Ian hoje. Sempre que conversamos em grupo, tento fazer com que as " 
+2023-09-12 14:15:55,856 - INFO - Sent response to None
+2023-09-12 14:15:55,857 - INFO - Removing older message from chat log for None
+2023-09-12 14:15:55,858 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:17:03,016 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "My little busy body group checking out all the activities" 
+2023-09-12 14:17:03,018 - INFO - Removing older message from chat log for None
+2023-09-12 14:17:03,019 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:17:04,248 - INFO - tokens_used by None: 754
+2023-09-12 14:17:04,248 - INFO - Generated Response: "Meu grupo de pequenos agitados conferindo todas as atividades." 
+2023-09-12 14:17:04,504 - INFO - Sent response to None
+2023-09-12 14:17:04,504 - INFO - Removing older message from chat log for None
+2023-09-12 14:17:04,505 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:17:31,039 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "Today for activity we did paint rolling. We revisited what colors apples can come in from yesterday then when it was their turn they needed to tell me which color apple they wanted to do. Squeezing is a great finger excercise to strengthen fingers so I always encourage hand over hand if they can't do it so they understand what you are asking them to do. Once the paint choice was in it was time to roll those marbles around the paper apples till they got all covered up!" 
+2023-09-12 14:17:31,042 - INFO - Removing older message from chat log for None
+2023-09-12 14:17:31,043 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:17:37,130 - INFO - tokens_used by None: 860
+2023-09-12 14:17:37,130 - INFO - Generated Response: "Hoje, para a atividade, fizemos pintura com rolinho. Revisitamos as cores em que as maçãs podem ser " 
+2023-09-12 14:17:37,402 - INFO - Sent response to None
+2023-09-12 14:17:37,402 - INFO - Removing older message from chat log for None
+2023-09-12 14:17:37,404 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:18:46,321 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "Outside before we got rained on lol" 
+2023-09-12 14:18:46,323 - INFO - Removing older message from chat log for None
+2023-09-12 14:18:46,324 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:18:47,123 - INFO - tokens_used by None: 811
+2023-09-12 14:18:47,123 - INFO - Generated Response: "Do lado de fora antes de sermos pegos pela chuva, hahaha." 
+2023-09-12 14:18:47,381 - INFO - Sent response to None
+2023-09-12 14:18:47,382 - INFO - Removing older message from chat log for None
+2023-09-12 14:18:47,383 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:20:19,866 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "Noise" 
+2023-09-12 14:20:19,868 - INFO - Removing older message from chat log for None
+2023-09-12 14:20:19,869 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:20:20,356 - INFO - tokens_used by None: 735
+2023-09-12 14:20:20,356 - INFO - Generated Response: "Barulho" 
+2023-09-12 14:20:20,631 - INFO - Sent response to None
+2023-09-12 14:20:20,632 - INFO - Removing older message from chat log for None
+2023-09-12 14:20:20,633 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:20:27,532 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "Trouble" 
+2023-09-12 14:20:27,532 - INFO - Removing older message from chat log for None
+2023-09-12 14:20:27,533 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:20:27,978 - INFO - tokens_used by None: 581
+2023-09-12 14:20:27,978 - INFO - Generated Response: "Problema" 
+2023-09-12 14:20:28,275 - INFO - Sent response to None
+2023-09-12 14:20:28,276 - INFO - Removing older message from chat log for None
+2023-09-12 14:20:28,277 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:20:51,548 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "Handsome" 
+2023-09-12 14:20:51,549 - INFO - Removing older message from chat log for None
+2023-09-12 14:20:51,551 - INFO - Chat log for None now has 10 messages
+2023-09-12 14:20:51,962 - INFO - tokens_used by None: 366
+2023-09-12 14:20:51,963 - INFO - Generated Response: "Bonito" 
+2023-09-12 14:20:52,324 - INFO - Sent response to None
+2023-09-12 14:20:52,324 - INFO - Removing older message from chat log for None
+2023-09-12 14:20:52,325 - INFO - Chat log for None now has 10 messages
+2023-09-12 15:04:37,609 - INFO - User bonjour17 (Ali K , 466910209), Message: "I wish to record game scores on to the blockchain. How do I do this in a way that cannot be tampered?
+eg. hackers could modify code to record a higher score than they earned in-game." 
+2023-09-12 15:04:37,611 - INFO - Removing older message from chat log for bonjour17
+2023-09-12 15:04:37,612 - INFO - Chat log for bonjour17 now has 10 messages
+2023-09-12 15:04:50,182 - INFO - tokens_used by bonjour17: 1377
+2023-09-12 15:04:50,182 - INFO - Generated Response: "To record game scores on the blockchain in a tamper-proof manner, you can follow these steps:  1. Ch" 
+2023-09-12 15:04:50,705 - INFO - Sent response to bonjour17
+2023-09-12 15:04:50,706 - INFO - Removing older message from chat log for bonjour17
+2023-09-12 15:04:50,707 - INFO - Chat log for bonjour17 now has 10 messages
+2023-09-12 15:06:06,747 - INFO - User bonjour17 (Ali K , 466910209), Message: "SuperTuxKart is a kart racing game. How can I implement secure score verification for it?" 
+2023-09-12 15:06:06,748 - INFO - Removing older message from chat log for bonjour17
+2023-09-12 15:06:06,749 - INFO - Chat log for bonjour17 now has 10 messages
+2023-09-12 15:06:19,066 - INFO - tokens_used by bonjour17: 1498
+2023-09-12 15:06:19,066 - INFO - Generated Response: "Implementing secure score verification for SuperTuxKart would require integrating blockchain technol" 
+2023-09-12 15:06:19,428 - INFO - Sent response to bonjour17
+2023-09-12 15:06:19,429 - INFO - Removing older message from chat log for bonjour17
+2023-09-12 15:06:19,430 - INFO - Chat log for bonjour17 now has 9 messages
+2023-09-12 15:33:45,542 - INFO - User bonjour17 (Ali K , 466910209), Message: "i want to build a blockchain turn based game. 
+But at the start of the game I need to assign hidden roles to players. 
 
-Today I run the tech side of this agency. I primarily manage data integration and analytics projects that serve our clients needs and empower our operations team. This company was a startup when I first joined so it gave me the opportunity to put on many hats:
+How can this be done without players knowing each other's roles?" 
+2023-09-12 15:33:45,545 - INFO - Chat log for bonjour17 now has 9 messages
+2023-09-12 15:33:58,487 - INFO - tokens_used by bonjour17: 1703
+2023-09-12 15:33:58,487 - INFO - Generated Response: "To assign hidden roles to players in a blockchain-based turn-based game without revealing the roles " 
+2023-09-12 15:33:59,040 - INFO - Sent response to bonjour17
+2023-09-12 15:33:59,043 - INFO - Chat log for bonjour17 now has 6 messages
+2023-09-12 15:55:09,967 - INFO - User bonjour17 (Ali K , 466910209), Message: "what is sei in crypto" 
+2023-09-12 15:55:09,969 - INFO - Chat log for bonjour17 now has 7 messages
+2023-09-12 15:55:12,667 - INFO - tokens_used by bonjour17: 1291
+2023-09-12 15:55:12,667 - INFO - Generated Response: "In the context of crypto, "SEI" does not have a widely recognized or specific meaning. It is possibl" 
+2023-09-12 15:55:13,202 - INFO - Sent response to bonjour17
+2023-09-12 15:55:13,202 - INFO - Chat log for bonjour17 now has 7 messages
+2023-09-12 16:00:53,291 - INFO - User bonjour17 (Ali K , 466910209), Message: "show me sample smart contract assigning secret roles to players. 
 
-- Account manager / store manager: led a cross functional team to operate official online flagship stores for brands. Building processes for efficiency, market research for writing effective copy, optimizing search and ads to boost click-through & conversion.
-- Marketer: Managed email marketing to engage our B2B audience. Wrote copy and produced educational content. Used the same B2C click-through optimization techniques from ecommerce operations to keep our audience engaged. This led to several successful partnerships and clients.
-- Project manager: hired external developers to quickly launch a market research tool powered by web scraping.
-- Tech lead: leading a lean tech team capable of developing complex systems that fulfill internal and client needs
-
-
-Above is "My Story". I'd like to modify this to show how I went from working in data and ecommerce and then became all focused on Web3" 
-2023-09-11 11:12:44,969 - INFO - Chat log for bonjour17 now has 7 messages
-2023-09-11 11:13:02,253 - INFO - tokens_used by bonjour17: 1455
-2023-09-11 11:13:02,254 - INFO - Generated Response: "In 2015, I left a promising career as a BI developer to explore the potential of data in driving bus" 
-2023-09-11 11:13:02,772 - INFO - Sent response to bonjour17
-2023-09-11 11:13:02,775 - INFO - Chat log for bonjour17 now has 6 messages
-2023-09-11 11:14:31,570 - INFO - User bonjour17 (Ali K , 466910209), Message: "Incorporate this into my story:
-I first stumbled upon crypto in China when trying to circumvent strict restrictions on foreigners for moving money out of the country. 
-
-But Web3 is more than just an interest now. It’s a community of people building a more ethical financial infrastructure for the future and this is where I’d like to leave my mark in history." 
-2023-09-11 11:14:31,576 - INFO - Chat log for bonjour17 now has 5 messages
-2023-09-11 11:14:53,566 - INFO - tokens_used by bonjour17: 1905
-2023-09-11 11:14:53,566 - INFO - Generated Response: "In 2015, I left a promising career as a BI developer to explore the potential of data in driving bus" 
-2023-09-11 11:14:53,832 - INFO - Sent response to bonjour17
-2023-09-11 11:14:53,838 - INFO - Chat log for bonjour17 now has 3 messages
-2023-09-11 13:23:10,958 - INFO - User bonjour17 (Ali K , 466910209), Message: "whats country code 332" 
-2023-09-11 13:23:10,959 - INFO - Chat log for bonjour17 now has 4 messages
-2023-09-11 13:30:48,627 - INFO - Started app
-2023-09-11 13:31:00,762 - INFO - User bonjour17 (Ali K , 466910209), Message: "where is area code 332" 
-2023-09-11 13:31:00,764 - INFO - Chat log for bonjour17 now has 1 messages
-2023-09-11 13:31:02,761 - INFO - tokens_used by bonjour17: 58
-2023-09-11 13:31:02,761 - INFO - Generated Response: "Area code 332 is currently not assigned to any specific location. It is a future area code that will" 
-2023-09-11 13:31:03,301 - INFO - Sent response to bonjour17
-2023-09-11 13:31:03,301 - INFO - Chat log for bonjour17 now has 2 messages
-2023-09-11 16:33:58,713 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "Traduza esse texto por favor.....Also yesterday was Ian's birthday so his family brought cake and little goodie bags for all his friends. We will be having that for snack today" 
-2023-09-11 16:33:58,714 - INFO - Chat log for None now has 1 messages
-2023-09-11 16:34:00,371 - INFO - tokens_used by None: 89
-2023-09-11 16:34:00,371 - INFO - Generated Response: "Também ontem foi o aniversário do Ian, então sua família trouxe bolo e pequenos sacos de guloseimas " 
-2023-09-11 16:34:00,869 - INFO - Sent response to None
-2023-09-11 16:34:00,870 - INFO - Chat log for None now has 2 messages
-2023-09-11 16:34:40,883 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "We ran out of time for circle today. Once everything starts to run more smoothly we will git everything in the day lol. So outside we go!" 
-2023-09-11 16:34:40,885 - INFO - Chat log for None now has 3 messages
-2023-09-11 16:34:42,510 - INFO - tokens_used by None: 170
-2023-09-11 16:34:42,510 - INFO - Generated Response: "Não tivemos tempo para a roda de discussão hoje. Assim que tudo começar a funcionar melhor, consegui" 
-2023-09-11 16:34:42,761 - INFO - Sent response to None
-2023-09-11 16:34:42,762 - INFO - Chat log for None now has 4 messages
-2023-09-11 16:35:05,338 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "And now all 5 of them rest." 
-2023-09-11 16:35:05,339 - INFO - Chat log for None now has 5 messages
-2023-09-11 16:35:05,933 - INFO - tokens_used by None: 198
-2023-09-11 16:35:05,933 - INFO - Generated Response: "E agora todos os cinco deles descansam." 
-2023-09-11 16:35:06,204 - INFO - Sent response to None
-2023-09-11 16:35:06,205 - INFO - Chat log for None now has 6 messages
-2023-09-11 16:35:28,739 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "Happy Monday!!! 
-The group is so young and so new that I don't want to dive into anything too deep for awhile. We spend a great deal of our time trying to learn routines and structure. Where do the toys get put back, how can we play with them, where do we sit for bathroom routine, practicing getting my three older ones to pull up pants and put on or take off shoes. All of these skill will benifit soooo much come the winter making everyone's life easier. I am a big believer in constantly talking to the children so I will give them little tasks or ask them simple questions training their ears to be alert and responsive. I'm going to focus alot on these skills for the next little bit while dabbling in some colors, numbers and fall theme type creatives." 
-2023-09-11 16:35:28,742 - INFO - Chat log for None now has 7 messages
-2023-09-11 16:35:35,228 - INFO - tokens_used by None: 589
-2023-09-11 16:35:35,229 - INFO - Generated Response: "Feliz segunda-feira!!! O grupo é tão jovem e tão novo que não quero entrar em assuntos muito profund" 
-2023-09-11 16:35:35,554 - INFO - Sent response to None
-2023-09-11 16:35:35,555 - INFO - Chat log for None now has 8 messages
-2023-09-11 16:37:09,531 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "I tried a creative today. Everyone is going home a bit messy today sorry. We talked about where apples grow then I drew a quick tree top. We chatted about what color apples could be then added some apples.onto.out tree by stamping real apples into paint." 
-2023-09-11 16:37:09,534 - INFO - Chat log for None now has 9 messages
-2023-09-11 16:37:12,380 - INFO - tokens_used by None: 746
-2023-09-11 16:37:12,381 - INFO - Generated Response: "Eu tentei uma atividade criativa hoje. Todo mundo vai embora um pouco sujo hoje, desculpe por isso. " 
-2023-09-11 16:37:12,662 - INFO - Sent response to None
-2023-09-11 16:37:12,663 - INFO - Chat log for None now has 10 messages
-2023-09-11 16:37:58,419 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "We ran out of time for circle today. Once everything starts to run more smoothly we will git everything in the day lol. So outside we go!" 
-2023-09-11 16:37:58,420 - INFO - Removing older message from chat log for None
-2023-09-11 16:37:58,421 - INFO - Chat log for None now has 10 messages
-2023-09-11 16:37:59,909 - INFO - tokens_used by None: 828
-2023-09-11 16:37:59,909 - INFO - Generated Response: "Não tivemos tempo para a roda de conversa hoje. Assim que tudo começar a funcionar mais tranquilamen" 
-2023-09-11 16:38:00,479 - INFO - Sent response to None
-2023-09-11 16:38:00,479 - INFO - Removing older message from chat log for None
-2023-09-11 16:38:00,480 - INFO - Chat log for None now has 10 messages
-2023-09-11 23:44:57,953 - INFO - User bonjour17 (Ali K , 466910209), Message: "how can i store images in a database" 
-2023-09-11 23:44:57,955 - INFO - Chat log for bonjour17 now has 3 messages
-2023-09-11 23:45:10,776 - INFO - tokens_used by bonjour17: 375
-2023-09-11 23:45:10,776 - INFO - Generated Response: "To store images in a database, you can follow these general steps:  1. Choose a database management " 
-2023-09-11 23:45:11,269 - INFO - Sent response to bonjour17
-2023-09-11 23:45:11,270 - INFO - Chat log for bonjour17 now has 4 messages
-2023-09-11 23:47:03,027 - INFO - User bonjour17 (Ali K , 466910209), Message: "i have a table where each row has an associated image or pdf file. What's a good way to manage data/images?
-
-I'll need to perform CRUD and be able to search based on fields in the database." 
-2023-09-11 23:47:03,029 - INFO - Chat log for bonjour17 now has 5 messages
-2023-09-11 23:47:21,373 - INFO - tokens_used by bonjour17: 858
-2023-09-11 23:47:21,373 - INFO - Generated Response: "To effectively manage data and associated images or PDF files in a database, you can consider the fo" 
-2023-09-11 23:47:21,634 - INFO - Sent response to bonjour17
-2023-09-11 23:47:21,634 - INFO - Chat log for bonjour17 now has 6 messages
-2023-09-11 23:48:50,773 - INFO - User bonjour17 (Ali K , 466910209), Message: "what's a good front end for this?" 
-2023-09-11 23:48:50,775 - INFO - Chat log for bonjour17 now has 7 messages
-2023-09-11 23:49:06,379 - INFO - tokens_used by bonjour17: 1182
-2023-09-11 23:49:06,380 - INFO - Generated Response: "There are several popular front-end frameworks and libraries that you can consider for managing data" 
-2023-09-11 23:49:06,640 - INFO - Sent response to bonjour17
-2023-09-11 23:49:06,641 - INFO - Chat log for bonjour17 now has 8 messages
-2023-09-11 23:50:14,673 - INFO - User bonjour17 (Ali K , 466910209), Message: "What's good python based library/framework for the frontend?" 
-2023-09-11 23:50:14,674 - INFO - Chat log for bonjour17 now has 9 messages
-2023-09-11 23:50:29,513 - INFO - tokens_used by bonjour17: 1556
-2023-09-11 23:50:29,513 - INFO - Generated Response: "Python is primarily known for its strength as a backend programming language, but there are a few fr" 
-2023-09-11 23:50:29,779 - INFO - Sent response to bonjour17
-2023-09-11 23:50:29,783 - INFO - Chat log for bonjour17 now has 6 messages
-2023-09-11 23:51:21,211 - INFO - User bonjour17 (Ali K , 466910209), Message: "is there a create-react-app equivalent for flask?" 
-2023-09-11 23:51:21,213 - INFO - Chat log for bonjour17 now has 7 messages
-2023-09-11 23:51:37,279 - INFO - tokens_used by bonjour17: 1574
-2023-09-11 23:51:37,279 - INFO - Generated Response: "Yes, there is a tool called Flask-React-SPA that provides a similar setup experience to create-react" 
-2023-09-11 23:51:37,538 - INFO - Sent response to bonjour17
-2023-09-11 23:51:37,540 - INFO - Chat log for bonjour17 now has 6 messages
+first players join a game. 
+the players vote to start game or when max players are reached. 
+when the game starts, they are assigned roles." 
+2023-09-12 16:00:53,295 - INFO - Chat log for bonjour17 now has 7 messages
+2023-09-12 16:01:15,010 - INFO - tokens_used by bonjour17: 1940
+2023-09-12 16:01:15,010 - INFO - Generated Response: "Certainly! Here's a sample smart contract that assigns secret roles to players in a turn-based game " 
+2023-09-12 16:01:15,294 - INFO - Sent response to bonjour17
+2023-09-12 16:01:15,297 - INFO - Chat log for bonjour17 now has 6 messages

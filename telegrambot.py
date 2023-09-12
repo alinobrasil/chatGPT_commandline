@@ -103,8 +103,10 @@ def respond(update, context):
         print("\nResponse---------------------")
         print(generated_text)
         
+        generated_text_clean = cleanup_text(generated_text)
+        
         try:
-            context.bot.send_message(chat_id=update.effective_chat.id, text=cleanup_text(generated_text), parse_mode="Markdown")
+            context.bot.send_message(chat_id=update.effective_chat.id, text=generated_text_clean, parse_mode="Markdown")
             logger.info(f"Sent response to {username}")
         except Exception as e:
             print("Exception: ", e)
@@ -117,7 +119,7 @@ def respond(update, context):
             return
         
         
-        add_to_chatlog(username, {"role": "assistant", "content": generated_text})
+        add_to_chatlog(username, {"role": "assistant", "content": generated_text_clean})
        
         print("\n\nActive users: ", users.keys())
         print()
@@ -131,12 +133,12 @@ def respond(update, context):
 
 
 def cleanup_text(text):
-    paragraphs = text.split("\n\n")
+    paragraphs = text.split("\n\n") 
+
 
     for p in paragraphs:
-        if p.startswith(" ") or p.startswith("\t"): 
-            # indent indicates a code block
-            p = "```\n" + p + "\n```"
+        if re.match(r"^ {4}", p):
+            p = "```\n" + p.lstrip() + "\n```" 
 
     updated_text = "\n\n".join(paragraphs)
     

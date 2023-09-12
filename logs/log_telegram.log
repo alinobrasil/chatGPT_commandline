@@ -1,13 +1,105 @@
-2023-09-07 10:18:46,427 - INFO - Started app
-2023-09-07 10:32:14,252 - INFO - User bonjour17 (Ali K , 466910209), Message: "what does this mean: telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 311" 
-2023-09-07 10:32:14,254 - INFO - Chat log for bonjour17 now has 1 messages
-2023-09-07 10:32:22,829 - INFO - tokens_used by bonjour17: 161
-2023-09-07 10:32:22,830 - INFO - Generated Response: "This error message indicates that there is an issue with parsing entities in a Telegram message. Spe" 
-2023-09-07 10:32:23,335 - INFO - Sent response to bonjour17
-2023-09-07 10:32:23,336 - INFO - Chat log for bonjour17 now has 2 messages
-2023-09-07 11:55:34,109 - INFO - User bonjour17 (Ali K , 466910209), Message: "terminate screen session" 
-2023-09-07 11:55:34,111 - INFO - Chat log for bonjour17 now has 3 messages
-2023-09-07 11:55:39,812 - INFO - tokens_used by bonjour17: 342
-2023-09-07 11:55:39,812 - INFO - Generated Response: "To terminate a screen session, you can follow these steps:  1. List the active screen sessions by ru" 
-2023-09-07 11:55:40,305 - INFO - Sent response to bonjour17
-2023-09-07 11:55:40,306 - INFO - Chat log for bonjour17 now has 4 messages
+2023-09-11 11:12:44,962 - INFO - User bonjour17 (Ali K , 466910209), Message: "In 2015, I left a promising career as a BI developer to see how data *really* drove business decisions. I joined a Chinese-American ecommerce agency serving well known brands from all over the world.
+
+Today I run the tech side of this agency. I primarily manage data integration and analytics projects that serve our clients needs and empower our operations team. This company was a startup when I first joined so it gave me the opportunity to put on many hats:
+
+- Account manager / store manager: led a cross functional team to operate official online flagship stores for brands. Building processes for efficiency, market research for writing effective copy, optimizing search and ads to boost click-through & conversion.
+- Marketer: Managed email marketing to engage our B2B audience. Wrote copy and produced educational content. Used the same B2C click-through optimization techniques from ecommerce operations to keep our audience engaged. This led to several successful partnerships and clients.
+- Project manager: hired external developers to quickly launch a market research tool powered by web scraping.
+- Tech lead: leading a lean tech team capable of developing complex systems that fulfill internal and client needs
+
+
+Above is "My Story". I'd like to modify this to show how I went from working in data and ecommerce and then became all focused on Web3" 
+2023-09-11 11:12:44,969 - INFO - Chat log for bonjour17 now has 7 messages
+2023-09-11 11:13:02,253 - INFO - tokens_used by bonjour17: 1455
+2023-09-11 11:13:02,254 - INFO - Generated Response: "In 2015, I left a promising career as a BI developer to explore the potential of data in driving bus" 
+2023-09-11 11:13:02,772 - INFO - Sent response to bonjour17
+2023-09-11 11:13:02,775 - INFO - Chat log for bonjour17 now has 6 messages
+2023-09-11 11:14:31,570 - INFO - User bonjour17 (Ali K , 466910209), Message: "Incorporate this into my story:
+I first stumbled upon crypto in China when trying to circumvent strict restrictions on foreigners for moving money out of the country. 
+
+But Web3 is more than just an interest now. It’s a community of people building a more ethical financial infrastructure for the future and this is where I’d like to leave my mark in history." 
+2023-09-11 11:14:31,576 - INFO - Chat log for bonjour17 now has 5 messages
+2023-09-11 11:14:53,566 - INFO - tokens_used by bonjour17: 1905
+2023-09-11 11:14:53,566 - INFO - Generated Response: "In 2015, I left a promising career as a BI developer to explore the potential of data in driving bus" 
+2023-09-11 11:14:53,832 - INFO - Sent response to bonjour17
+2023-09-11 11:14:53,838 - INFO - Chat log for bonjour17 now has 3 messages
+2023-09-11 13:23:10,958 - INFO - User bonjour17 (Ali K , 466910209), Message: "whats country code 332" 
+2023-09-11 13:23:10,959 - INFO - Chat log for bonjour17 now has 4 messages
+2023-09-11 13:30:48,627 - INFO - Started app
+2023-09-11 13:31:00,762 - INFO - User bonjour17 (Ali K , 466910209), Message: "where is area code 332" 
+2023-09-11 13:31:00,764 - INFO - Chat log for bonjour17 now has 1 messages
+2023-09-11 13:31:02,761 - INFO - tokens_used by bonjour17: 58
+2023-09-11 13:31:02,761 - INFO - Generated Response: "Area code 332 is currently not assigned to any specific location. It is a future area code that will" 
+2023-09-11 13:31:03,301 - INFO - Sent response to bonjour17
+2023-09-11 13:31:03,301 - INFO - Chat log for bonjour17 now has 2 messages
+2023-09-11 16:33:58,713 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "Traduza esse texto por favor.....Also yesterday was Ian's birthday so his family brought cake and little goodie bags for all his friends. We will be having that for snack today" 
+2023-09-11 16:33:58,714 - INFO - Chat log for None now has 1 messages
+2023-09-11 16:34:00,371 - INFO - tokens_used by None: 89
+2023-09-11 16:34:00,371 - INFO - Generated Response: "Também ontem foi o aniversário do Ian, então sua família trouxe bolo e pequenos sacos de guloseimas " 
+2023-09-11 16:34:00,869 - INFO - Sent response to None
+2023-09-11 16:34:00,870 - INFO - Chat log for None now has 2 messages
+2023-09-11 16:34:40,883 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "We ran out of time for circle today. Once everything starts to run more smoothly we will git everything in the day lol. So outside we go!" 
+2023-09-11 16:34:40,885 - INFO - Chat log for None now has 3 messages
+2023-09-11 16:34:42,510 - INFO - tokens_used by None: 170
+2023-09-11 16:34:42,510 - INFO - Generated Response: "Não tivemos tempo para a roda de discussão hoje. Assim que tudo começar a funcionar melhor, consegui" 
+2023-09-11 16:34:42,761 - INFO - Sent response to None
+2023-09-11 16:34:42,762 - INFO - Chat log for None now has 4 messages
+2023-09-11 16:35:05,338 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "And now all 5 of them rest." 
+2023-09-11 16:35:05,339 - INFO - Chat log for None now has 5 messages
+2023-09-11 16:35:05,933 - INFO - tokens_used by None: 198
+2023-09-11 16:35:05,933 - INFO - Generated Response: "E agora todos os cinco deles descansam." 
+2023-09-11 16:35:06,204 - INFO - Sent response to None
+2023-09-11 16:35:06,205 - INFO - Chat log for None now has 6 messages
+2023-09-11 16:35:28,739 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "Happy Monday!!! 
+The group is so young and so new that I don't want to dive into anything too deep for awhile. We spend a great deal of our time trying to learn routines and structure. Where do the toys get put back, how can we play with them, where do we sit for bathroom routine, practicing getting my three older ones to pull up pants and put on or take off shoes. All of these skill will benifit soooo much come the winter making everyone's life easier. I am a big believer in constantly talking to the children so I will give them little tasks or ask them simple questions training their ears to be alert and responsive. I'm going to focus alot on these skills for the next little bit while dabbling in some colors, numbers and fall theme type creatives." 
+2023-09-11 16:35:28,742 - INFO - Chat log for None now has 7 messages
+2023-09-11 16:35:35,228 - INFO - tokens_used by None: 589
+2023-09-11 16:35:35,229 - INFO - Generated Response: "Feliz segunda-feira!!! O grupo é tão jovem e tão novo que não quero entrar em assuntos muito profund" 
+2023-09-11 16:35:35,554 - INFO - Sent response to None
+2023-09-11 16:35:35,555 - INFO - Chat log for None now has 8 messages
+2023-09-11 16:37:09,531 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "I tried a creative today. Everyone is going home a bit messy today sorry. We talked about where apples grow then I drew a quick tree top. We chatted about what color apples could be then added some apples.onto.out tree by stamping real apples into paint." 
+2023-09-11 16:37:09,534 - INFO - Chat log for None now has 9 messages
+2023-09-11 16:37:12,380 - INFO - tokens_used by None: 746
+2023-09-11 16:37:12,381 - INFO - Generated Response: "Eu tentei uma atividade criativa hoje. Todo mundo vai embora um pouco sujo hoje, desculpe por isso. " 
+2023-09-11 16:37:12,662 - INFO - Sent response to None
+2023-09-11 16:37:12,663 - INFO - Chat log for None now has 10 messages
+2023-09-11 16:37:58,419 - INFO - User None (Rosiane Rodrigues, 722239251), Message: "We ran out of time for circle today. Once everything starts to run more smoothly we will git everything in the day lol. So outside we go!" 
+2023-09-11 16:37:58,420 - INFO - Removing older message from chat log for None
+2023-09-11 16:37:58,421 - INFO - Chat log for None now has 10 messages
+2023-09-11 16:37:59,909 - INFO - tokens_used by None: 828
+2023-09-11 16:37:59,909 - INFO - Generated Response: "Não tivemos tempo para a roda de conversa hoje. Assim que tudo começar a funcionar mais tranquilamen" 
+2023-09-11 16:38:00,479 - INFO - Sent response to None
+2023-09-11 16:38:00,479 - INFO - Removing older message from chat log for None
+2023-09-11 16:38:00,480 - INFO - Chat log for None now has 10 messages
+2023-09-11 23:44:57,953 - INFO - User bonjour17 (Ali K , 466910209), Message: "how can i store images in a database" 
+2023-09-11 23:44:57,955 - INFO - Chat log for bonjour17 now has 3 messages
+2023-09-11 23:45:10,776 - INFO - tokens_used by bonjour17: 375
+2023-09-11 23:45:10,776 - INFO - Generated Response: "To store images in a database, you can follow these general steps:  1. Choose a database management " 
+2023-09-11 23:45:11,269 - INFO - Sent response to bonjour17
+2023-09-11 23:45:11,270 - INFO - Chat log for bonjour17 now has 4 messages
+2023-09-11 23:47:03,027 - INFO - User bonjour17 (Ali K , 466910209), Message: "i have a table where each row has an associated image or pdf file. What's a good way to manage data/images?
+
+I'll need to perform CRUD and be able to search based on fields in the database." 
+2023-09-11 23:47:03,029 - INFO - Chat log for bonjour17 now has 5 messages
+2023-09-11 23:47:21,373 - INFO - tokens_used by bonjour17: 858
+2023-09-11 23:47:21,373 - INFO - Generated Response: "To effectively manage data and associated images or PDF files in a database, you can consider the fo" 
+2023-09-11 23:47:21,634 - INFO - Sent response to bonjour17
+2023-09-11 23:47:21,634 - INFO - Chat log for bonjour17 now has 6 messages
+2023-09-11 23:48:50,773 - INFO - User bonjour17 (Ali K , 466910209), Message: "what's a good front end for this?" 
+2023-09-11 23:48:50,775 - INFO - Chat log for bonjour17 now has 7 messages
+2023-09-11 23:49:06,379 - INFO - tokens_used by bonjour17: 1182
+2023-09-11 23:49:06,380 - INFO - Generated Response: "There are several popular front-end frameworks and libraries that you can consider for managing data" 
+2023-09-11 23:49:06,640 - INFO - Sent response to bonjour17
+2023-09-11 23:49:06,641 - INFO - Chat log for bonjour17 now has 8 messages
+2023-09-11 23:50:14,673 - INFO - User bonjour17 (Ali K , 466910209), Message: "What's good python based library/framework for the frontend?" 
+2023-09-11 23:50:14,674 - INFO - Chat log for bonjour17 now has 9 messages
+2023-09-11 23:50:29,513 - INFO - tokens_used by bonjour17: 1556
+2023-09-11 23:50:29,513 - INFO - Generated Response: "Python is primarily known for its strength as a backend programming language, but there are a few fr" 
+2023-09-11 23:50:29,779 - INFO - Sent response to bonjour17
+2023-09-11 23:50:29,783 - INFO - Chat log for bonjour17 now has 6 messages
+2023-09-11 23:51:21,211 - INFO - User bonjour17 (Ali K , 466910209), Message: "is there a create-react-app equivalent for flask?" 
+2023-09-11 23:51:21,213 - INFO - Chat log for bonjour17 now has 7 messages
+2023-09-11 23:51:37,279 - INFO - tokens_used by bonjour17: 1574
+2023-09-11 23:51:37,279 - INFO - Generated Response: "Yes, there is a tool called Flask-React-SPA that provides a similar setup experience to create-react" 
+2023-09-11 23:51:37,538 - INFO - Sent response to bonjour17
+2023-09-11 23:51:37,540 - INFO - Chat log for bonjour17 now has 6 messages

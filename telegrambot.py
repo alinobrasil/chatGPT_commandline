@@ -77,10 +77,11 @@ def respond(update, context):
             print("Exception: ", e)
             context.bot.send_message(chat_id=update.effective_chat.id, text="Sorry, I'm having trouble responding. Can you try again?")
             try:
+                console.log("Log warning")
                 logger.warning("Error generating response from OpenAI: ", e)
-            except Exception as e:
+            except Exception as err:
                 print("Error logging warning")
-                print(e)
+                print(err)
 
             return
         

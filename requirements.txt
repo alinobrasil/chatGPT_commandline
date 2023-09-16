@@ -1,2 +1,4 @@
 openai
 python-telegram-bot==12.7
+python-dotenv
+stripe

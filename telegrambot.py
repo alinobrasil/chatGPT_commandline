@@ -1,17 +1,21 @@
 
 import os
+from dotenv import load_dotenv
+
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 from telegram import Update
 from telegram.utils.helpers import escape_markdown
 
 import openai
-import config
+# import config
 import logging
 from logging.handlers import TimedRotatingFileHandler
 import re
 import stripe
 
-
+load_dotenv()
+openai.api_key =  os.getenv("OPENAI_KEY")
+telegram_token=os.getenv("TELEGRAM_TOKEN")
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger('my_logger')
@@ -21,11 +25,7 @@ handler.suffix = '_%Y-%m-%d.log'
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
-    
-
-
-openai.api_key = config.openai_key
-# openai_api_key = config.openai_key
+ 
 
 users={}
 max_tokens=2048
@@ -183,7 +183,7 @@ def get_word_count(string):
     return len(words)
 
 def main():
-    updater = Updater(token=config.telegram_token, use_context=True)
+    updater = Updater(token=telegram_token, use_context=True)
     dispatcher = updater.dispatcher
     start_handler = CommandHandler('start', start)
     dispatcher.add_handler(start_handler)

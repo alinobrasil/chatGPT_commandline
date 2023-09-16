@@ -7,3 +7,4 @@ chat.spec
 
 
 logs/*
+.env

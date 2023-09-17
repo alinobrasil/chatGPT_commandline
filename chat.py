@@ -1,8 +1,11 @@
 import openai
 import config
+import os
+from dotenv import load_dotenv
 
 # set the API key
-openai.api_key = config.openai_key
+load_dotenv()
+openai.api_key =  os.getenv("OPENAI_KEY")
 
 # set the model to use (e.g. "text-davinci-002")
 model = "gpt-3.5-turbo"

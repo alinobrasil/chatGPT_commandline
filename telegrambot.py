@@ -37,7 +37,7 @@ def start(update, context):
     logger.info(f'User {update.message.from_user.username} started the bot')
 
 def respond(update, context):
-    message = update.message.text
+    message = cleanup_text(update.message.text)
     name = update.message.from_user    
     
     last_name = name.last_name if name.last_name else ""
@@ -151,7 +151,7 @@ def add_to_chatlog(username, message):
     user_messages = users[username]
     user_messages.append(message)
     
-    ## delete the first 2 messages if there are more than 10
+    ## delete the first 2 messagelogger.infos if there are more than 10
     if len(user_messages) >10:
         logger.info(f"Removing older message from chat log for {username}")
         print("\nRemoving older message from chat log...")

@@ -1,0 +1,210 @@
+2023-11-23 05:01:19,050 - INFO - User geisyannesoares (Geisy Soares, 539868480), Message: "what is the difference between StackPanel and RelativePanel in C#?" 
+2023-11-23 05:01:19,065 - INFO - Removing older message from chat log for geisyannesoares
+2023-11-23 05:01:19,068 - INFO - Chat log for geisyannesoares now has 10 messages
+2023-11-23 05:01:24,696 - INFO - tokens_used by geisyannesoares: 1731
+2023-11-23 05:01:24,696 - INFO - Generated Response: "In C#, `StackPanel` and `RelativePanel` are two different layout panels provided by the Windows Pres" 
+2023-11-23 05:01:25,141 - INFO - Sent response to geisyannesoares
+2023-11-23 05:01:25,141 - INFO - Removing older message from chat log for geisyannesoares
+2023-11-23 05:01:25,142 - INFO - Chat log for geisyannesoares now has 9 messages
+2023-11-23 05:05:07,279 - INFO - User geisyannesoares (Geisy Soares, 539868480), Message: "why is my textblock inside the panel not appearing?" 
+2023-11-23 05:05:07,280 - INFO - Chat log for geisyannesoares now has 9 messages
+2023-11-23 05:05:14,879 - INFO - tokens_used by geisyannesoares: 1805
+2023-11-23 05:05:14,879 - INFO - Generated Response: "There could be several reasons why your `TextBlock` inside a panel is not appearing. Here are a few " 
+2023-11-23 05:05:15,133 - INFO - Sent response to geisyannesoares
+2023-11-23 05:05:15,134 - INFO - Chat log for geisyannesoares now has 8 messages
+2023-11-23 05:05:15,135 - INFO - User geisyannesoares (Geisy Soares, 539868480), Message: "<Page
+    x:Class="finalProject.SignUp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:finalProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" MinWidth="100"/>
+            <ColumnDefinition Width="1*" MinWidth="150" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock x:Name="txtHeadline" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Join us today!" VerticalAlignment="Top" Margin="0,50,0,0" FontFamily="MV Boli" FontSize="22" FontWeight="Bold" Foreground="#FF3942C1"/>
+        
+        <RelativePanel 
+            x:Name="pnlJoin"
+            Width="900"
+            Height="850"
+            Margin="40,180"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top">
+            
+            <TextBlock x:Name="lblPersonalInfo" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="Personal Information" Margin="0,10,0,0"/>
+            <TextBlock x:Name="lblName" Grid.Row="2" Grid.Column="1" Margin="0,0,20,0" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Name:" TextWrapping="Wrap" />
+            
+
+        </RelativePanel>
+        
+    </Grid>
+</Page>" 
+2023-11-23 05:05:15,137 - INFO - Chat log for geisyannesoares now has 9 messages
+2023-11-23 05:05:21,966 - INFO - tokens_used by geisyannesoares: 2129
+2023-11-23 05:05:21,966 - INFO - Generated Response: "Based on the provided XAML code snippet, the `TextBlock` with the name "lblName" is not appearing be" 
+2023-11-23 05:05:22,189 - INFO - Sent response to geisyannesoares
+2023-11-23 05:05:22,189 - INFO - Chat log for geisyannesoares now has 8 messages
+2023-11-23 05:10:52,347 - INFO - User geisyannesoares (Geisy Soares, 539868480), Message: "<Page
+    x:Class="finalProject.SignUp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:finalProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" MinWidth="100"/>
+            <ColumnDefinition Width="1*" MinWidth="150" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock x:Name="txtHeadline" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Join us today!" VerticalAlignment="Top" Margin="0,50,0,0" FontFamily="MV Boli" FontSize="22" FontWeight="Bold" Foreground="#FF3942C1"/>
+        
+        <RelativePanel 
+            x:Name="pnlJoin"
+            Width="900"
+            Height="850"
+            Margin="40,180"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top">
+            
+            <TextBlock x:Name="lblPersonalInfo" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="Personal Information" Margin="0,10,0,0"/>
+            
+
+        </RelativePanel>
+    </Grid>
+</Page>
+ Why is my TextBlock inside the panel not appearing?" 
+2023-11-23 05:10:52,362 - INFO - Chat log for geisyannesoares now has 9 messages
+2023-11-23 05:11:24,400 - INFO - User geisyannesoares (Geisy Soares, 539868480), Message: "Why is my TextBlock inside the panel not appearing?" 
+2023-11-23 05:11:24,401 - INFO - Chat log for geisyannesoares now has 9 messages
+2023-11-23 05:11:25,885 - INFO - User geisyannesoares (Geisy Soares, 539868480), Message: "<Page
+    x:Class="finalProject.SignUp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:finalProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" MinWidth="100"/>
+            <ColumnDefinition Width="1*" MinWidth="150" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock x:Name="txtHeadline" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Join us today!" VerticalAlignment="Top" Margin="0,50,0,0" FontFamily="MV Boli" FontSize="22" FontWeight="Bold" Foreground="#FF3942C1"/>
+        
+        <RelativePanel 
+            x:Name="pnlJoin"
+            Width="900"
+            Height="850"
+            Margin="40,180"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top">
+            
+            <TextBlock x:Name="lblPersonalInfo" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="Personal Information" Margin="0,10,0,0"/>
+            
+
+        </RelativePanel>
+    </Grid>
+</Page>" 
+2023-11-23 05:11:25,888 - INFO - Chat log for geisyannesoares now has 9 messages
+2023-11-23 05:11:53,177 - INFO - User geisyannesoares (Geisy Soares, 539868480), Message: "<Page
+    x:Class="finalProject.SignUp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:finalProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" MinWidth="100"/>
+            <ColumnDefinition Width="1*" MinWidth="150" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock x:Name="txtHeadline" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Join us today!" VerticalAlignment="Top" Margin="0,50,0,0" FontFamily="MV Boli" FontSize="22" FontWeight="Bold" Foreground="#FF3942C1"/>
+        
+        <RelativePanel 
+            x:Name="pnlJoin"
+            Width="900"
+            Height="850"
+            Margin="40,180"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top">
+            
+            <TextBlock x:Name="lblPersonalInfo" Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="Personal Information" Margin="0,10,0,0"/>
+            
+
+        </RelativePanel>
+    </Grid>
+</Page>
+ Why is my TextBlock inside the panel not appearing?" 
+2023-11-23 05:11:53,180 - INFO - Chat log for geisyannesoares now has 8 messages
+2023-11-23 17:22:53,761 - INFO - User geisyannesoares (Geisy Soares, 539868480), Message: "how to insert image on a universal app on c#" 
+2023-11-23 17:22:53,763 - INFO - Chat log for geisyannesoares now has 9 messages

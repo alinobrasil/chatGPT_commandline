@@ -11,24 +11,48 @@ import openai
 import logging
 from logging.handlers import TimedRotatingFileHandler
 import re
-import stripe
+import sys
+
+
 
 load_dotenv()
 openai.api_key =  os.getenv("OPENAI_KEY")
-telegram_token=os.getenv("TELEGRAM_TOKEN")
 
+
+# set environment
+try :
+    ## TODO: TEST database
+
+    environment = sys.argv[1]
+    print("Environment: ", environment)
+    
+    if environment == "test":
+        telegram_token=os.getenv("TELEGRAM_TEST_TOKEN")
+    elif environment == "prod":
+        telegram_token=os.getenv("TELEGRAM_TOKEN")
+    else:
+        print("provide argument: test or prod")
+        sys.exit(1)
+except Exception as error:
+    print("Error: ", error)
+    print("\n\nProvide argument: test or prod")
+    sys.exit(1)
+
+
+## Settings for logger
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger('my_logger')
-handler = TimedRotatingFileHandler(filename='logs/log_telegram.log', 
+handler = TimedRotatingFileHandler(filename=f'logs/{environment}/t.log', 
                                    when='midnight', interval=1, backupCount=0)
 handler.suffix = '_%Y-%m-%d.log'
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
- 
+
+
 
 users={}
-max_tokens=2048
+max_tokens=1600
 
 def start(update, context):
     context.bot.send_message(
@@ -77,7 +101,7 @@ def respond(update, context):
             print("Exception: ", e)
             context.bot.send_message(chat_id=update.effective_chat.id, text="Sorry, I'm having trouble responding. Can you try again?")
             try:
-                console.log("Log warning")
+                print("Log warning")
                 logger.warning("Error generating response from OpenAI: ", e)
             except Exception as err:
                 print("Error logging warning")

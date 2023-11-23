@@ -1,0 +1,7 @@
+2023-11-23 11:14:54,723 - INFO - Started app
+2023-11-23 11:15:03,395 - INFO - User bonjour17 (Ali K , 466910209), Message: "whats the cpaital of japan" 
+2023-11-23 11:15:03,398 - INFO - Chat log for bonjour17 now has 1 messages
+2023-11-23 11:15:04,031 - INFO - tokens_used by bonjour17: 22
+2023-11-23 11:15:04,031 - INFO - Generated Response: "The capital of Japan is Tokyo." 
+2023-11-23 11:15:04,530 - INFO - Sent response to bonjour17
+2023-11-23 11:15:04,531 - INFO - Chat log for bonjour17 now has 2 messages

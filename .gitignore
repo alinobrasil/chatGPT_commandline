@@ -6,5 +6,7 @@ dist/
 chat.spec
 
 
-logs/*
+logs/*.log
+# logs/prod/*.log
+# logs/test/*.log
 .env

@@ -52,7 +52,7 @@ logger.addHandler(handler)
 
 
 users={}
-max_tokens=1600
+max_tokens=1800
 
 def start(update, context):
     context.bot.send_message(
